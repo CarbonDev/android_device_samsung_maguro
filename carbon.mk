@@ -16,10 +16,10 @@ $(call inherit-product, device/samsung/maguro/full_maguro.mk)
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := maguro
 PRODUCT_NAME := carbon_maguro
-PRODUCT_BRAND := Google
+PRODUCT_BRAND := google
 PRODUCT_MODEL := Galaxy Nexus
-PRODUCT_MANUFACTURER := Samsung
+PRODUCT_MANUFACTURER := samsung
 PRODUCT_PROPERTY_OVERRIDES += ro.buildzipid=carbon.maguro.$(shell date +%m%d%y).$(shell date +%H%M%S)
 
 #Set build fingerprint / ID / Product Name ect.
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=yakju BUILD_FINGERPRINT="google/yakju/maguro:4.2.2/JDQ39/573038:user/release-keys" PRIVATE_BUILD_DESC="yakju-user 4.2.2 JDQ39 573038 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=yakju BUILD_FINGERPRINT="google/yakju/maguro:4.3/JWR66V/737497:user/release-keys" PRIVATE_BUILD_DESC="yakju-user 4.3 JWR66V 737497 release-keys"
